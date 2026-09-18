@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data directories (only ignore raw, keep processed)
+data/raw/
+
+# Logs
+logs/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments (if any)
+venv/
+env/
+.env/
+
+# Scratch directory
+scratch/
+
+# Ignore zip files
+*.zip
